@@ -20,7 +20,7 @@ def MultiLoginAndSetup():
 
     click(button='right', x=947, y=369)
     time.sleep(1)
-    click(button='right', x=1849, y=176)
+    click(button='right', x=1843, y=209)
     time.sleep(1)
     click(button='right', x=1766, y=536)
 
@@ -40,7 +40,7 @@ def MultiLoginAndSetup():
 
     click(button='right', x=2868, y=369)
     time.sleep(1)
-    click(button='right', x=3765, y=176)
+    click(button='right', x=3763, y=209)
     time.sleep(1)
     click(button='right', x=3693, y=536)
 
