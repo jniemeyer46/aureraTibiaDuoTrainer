@@ -8,11 +8,9 @@ import configs
 def MultiAntiIdle():
 	while True:
 		if configs.runProgram:
-			DirectionChoices = ['up', 'down', 'left', 'right']
+			Direction = 'up'
 
-			Direction = random.choice(DirectionChoices)
-
-			hotkey('ctrl', Direction)
+			hotkey(Direction)
 
 			time.sleep(1)
 		else:
