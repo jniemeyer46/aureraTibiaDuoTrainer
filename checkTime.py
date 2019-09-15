@@ -1,5 +1,5 @@
 from time import strftime, localtime, sleep
-from login import LoginAndSetup
+from multiLogin import MultiLoginAndSetup
 import configs
 
 
@@ -16,7 +16,7 @@ def CheckTime():
                 configs.runProgram = False
             else:
                 print('The trainer is currently off, will start it up when the server is back up.')
-        elif hour == 2 and minute == 5:
+        elif hour == 13 and minute == 33:
             if configs.runProgram:
                 print('THIS NEEDS TO BE OFF FOR THE LOGIN AND SETUP STEP')
 
@@ -31,4 +31,4 @@ def CheckTime():
 
 
 if __name__ == '__main__':
-    checkTime()
+    CheckTime()

@@ -5,7 +5,7 @@ import random
 import configs
 
 
-def AntiIdle():
+def MultiAntiIdle():
 	while True:
 		if configs.runProgram:
 			DirectionChoices = ['up', 'down', 'left', 'right']
@@ -20,4 +20,4 @@ def AntiIdle():
 
 
 if __name__ == '__main__':
-	AntiIdle()
+	MultiAntiIdle()

@@ -9,9 +9,9 @@ def MultiTrainMagicLevel():
 		if configs.runProgram:
 			press('f8')
 
-			time.sleep(3)
+			time.sleep(1)
 		else:
-			time.sleep(3)
+			time.sleep(1)
 
 
 if __name__ == '__main__':
