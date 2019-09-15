@@ -16,7 +16,7 @@ def CheckTime():
                 configs.runProgram = False
             else:
                 print('The trainer is currently off, will start it up when the server is back up.')
-        elif hour == 13 and minute == 33:
+        elif hour == 2 and minute == 5:
             if configs.runProgram:
                 print('THIS NEEDS TO BE OFF FOR THE LOGIN AND SETUP STEP')
 
