@@ -14,9 +14,9 @@ def AntiIdle():
 
 			hotkey('ctrl', Direction)
 
-			time.sleep(3)
+			time.sleep(1)
 		else:
-			time.sleep(3)
+			time.sleep(5)
 
 
 if __name__ == '__main__':

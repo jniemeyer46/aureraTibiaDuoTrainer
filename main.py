@@ -1,9 +1,9 @@
 from checkButtonPress import CheckButtonPress
-from trainMagicLevel import TrainMagicLevel
-from antiIdle import AntiIdle
-from eatFood import EatFood
-from login import LoginAndSetup
 from checkTime import CheckTime
+from multiTrainMagicLevel import MultiTrainMagicLevel
+from multiAntiIdle import MultiAntiIdle
+from multiEatFood import MultiEatFood
+from multiLogin import MultiLoginAndSetup
 import configs
 
 from pynput import keyboard
@@ -26,8 +26,8 @@ class myThread(threading.Thread):
 
 def main():
 	# Define the possible actions
-	threadNames = ['Check-button-press', 'Check-Time', 'Anti-Idle', 'Eat-Food', 'Train-Magic-Level']
-	threadActions = [CheckButtonPress, CheckTime, AntiIdle, EatFood, TrainMagicLevel]
+	threadNames = ['Check-button-press', 'Check-Time', 'Multi-Anti-Idle', 'Multi-Eat-Food', 'Multi-Train-Magic-Level']
+	threadActions = [CheckButtonPress, CheckTime, MultiAntiIdle, MultiEatFood, MultiTrainMagicLevel]
 	threads = []
 	threadID = 0
 

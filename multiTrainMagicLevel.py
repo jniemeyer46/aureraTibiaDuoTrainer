@@ -4,7 +4,7 @@ import time
 import configs
 
 
-def TrainMagicLevel():
+def MultiTrainMagicLevel():
 	while True:
 		if configs.runProgram:
 			press('f8')
@@ -15,4 +15,4 @@ def TrainMagicLevel():
 
 
 if __name__ == '__main__':
-	TrainMagicLevel()
+	MultiTrainMagicLevel()

@@ -4,7 +4,7 @@ import time
 import configs
 
 
-def EatFood():
+def MultiEatFood():
 	while True:
 		if configs.runProgram:
 			click(button = 'right', x=1771, y=543)
@@ -15,4 +15,4 @@ def EatFood():
 
 
 if __name__ == '__main__':
-	EatFood()
+	MultiEatFood()

@@ -24,7 +24,7 @@ def CheckTime():
             else:
                 print('It is time to start the program back up and get my character logged in!')
 
-            LoginAndSetup()
+            MultiLoginAndSetup()
             configs.runProgram = True
         
         sleep(60)
