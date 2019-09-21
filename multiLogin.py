@@ -6,6 +6,7 @@ import configs
 def MultiLoginAndSetup():
     # Account 1 login
     click(x=102, y=833)
+    click(x=1000, y=450)
 
     typewrite(configs.accountName1)
     
@@ -26,6 +27,7 @@ def MultiLoginAndSetup():
 
     # account 2 login
     click(x=2006, y=833)
+    click(x=2815, y=450)
 
     typewrite(configs.accountName2)
     
